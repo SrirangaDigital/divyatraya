@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Sanskrit2003';
+  src: url('Sanskrit2003.ttf');
+}
+@font-face {
+  font-family: 'Siddhanta1';
+  src: url('siddhanta1.ttf');
+}
+body {
+	font-size: 1.3rem;
+	font-family: 'Siddhanta1';
+	color: #2e3233;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#page{
+	width: 965px;
+	border: 1px solid #C0C0C0;
+	margin: auto;
+	padding: 1.5em;
+	-moz-box-shadow: 0px 0px 30px #EBC19D;
+    -webkit-box-shadow: 0px 0px 20px #EBC19D;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+p{
+	text-align: justify;
+	line-height: 2em;
+	margin-top: 1em;
+
+}
+
+.article_title{
+	font-size: 2em;
+	text-align: center;
+	color: #FFA500;	
+}
+.sub_article {
+	font-size: 1.5em;
+	text-align: center;
+	color: #FFA500;	
+}
+
+.numbers, .sub_title {
+text-align:center;
+font-weight:bold;
+	font-size: 1.5rem;
+}
+
+.title{
+	text-align: center;
+	font-size: 2rem;
+	
+}
+
+.verse{
+	text-align: center;
+	font-weight: bold;
+}
+
+.reference {
+	text-align: right ;
+}
+.authorline{
+text-align: center;
+}
+
+.e{
+text-align:center;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+ol li{
+	line-height: 2em;
+	color: #A92415;
+}
+
+.toc ol li a{
+	color: #A92415;
+	text-decoration: none;
+}
+
+.toc ol li a:hover{
+	color: #A92415;
+	text-decoration: underline;
+}
+
+.toc a{
+	color: #A92415;
+	text-decoration: none;
+}
+
+.toc a:hover{
+	color: #A92415;
+	text-decoration: underline;
+}
+
+td, th{
+padding-top: 15px;
+}
