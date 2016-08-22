@@ -112,3 +112,9 @@ td, th{
 padding-top: 15px;
 padding-right: 20px;
 }
+#image {
+	margin: 0 auto 0 auto;
+  border: 10px solid #FFFFFF;
+  box-shadow: 0 0 7px #AAA;
+}
+
